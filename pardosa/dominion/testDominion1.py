@@ -58,6 +58,7 @@ while not Dominion.gameover(supply):
             player.turn(players, supply, trash)
 
 # Final score
+#test
 dcs = Dominion.cardsummaries(players)
 vp = dcs.loc['VICTORY POINTS']
 vpmax = vp.max()
