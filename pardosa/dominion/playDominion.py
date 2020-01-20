@@ -87,7 +87,11 @@ turn  = 0
 while not Dominion.gameover(supply):
     turn += 1    
     print("\r")    
+<<<<<<< HEAD
     for value in supply_order:
+=======
+    for value in supply_order: 
+>>>>>>> e0472568a3bcde21a5e5fe448613132b6136e881
         print (value)
         for stack in supply_order[value]:
             if stack in supply:
