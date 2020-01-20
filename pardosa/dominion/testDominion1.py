@@ -1,8 +1,9 @@
 # -*- coding: utf-8 -*-
 """
-Created on Tue Oct 13 15:42:42 2015
+Created on Sat Jan 18 21:30:42 2020
 
-@author: tfleck
+@author: Sarah Pardo
+@email: pardosa@oregonstate.edu
 """
 
 import Dominion
@@ -87,7 +88,7 @@ turn  = 0
 while not Dominion.gameover(supply):
     turn += 1    
     print("\r")    
-    for value in supply_order: 
+    for value in supply_order:
         print (value)
         for stack in supply_order[value]:
             if stack in supply:
