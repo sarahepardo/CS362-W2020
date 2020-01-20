@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fc689a59-08ca-4901-8194-96da3edae623" name="Default Changelist" comment="attempted test scenarios and made a refractor file">
-      <change beforePath="$PROJECT_DIR$/testDominion1.py" beforeDir="false" afterPath="$PROJECT_DIR$/testDominion1.py" afterDir="false" />
-    </list>
+    <list default="true" id="fc689a59-08ca-4901-8194-96da3edae623" name="Default Changelist" comment="attempted test scenarios and made a refractor file" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
