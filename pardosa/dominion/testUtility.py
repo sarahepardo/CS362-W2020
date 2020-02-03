@@ -11,11 +11,17 @@ import random
 from collections import defaultdict
 
 # Get player names
-player_names = ["Annie", "*Ben", "*Carla"]
+def GetPlayers():
+    player_names = ["Annie", "*Ben", "*Carla"]
+    return player_names
 
 # number of curses and victory cards
-nV = 12 if len(player_names) > 2 else 8
-nC = -10 + 10 * len(player_names)
+def GetVictoryCards(players):
+    nV = 12 if len(player_names) > 2 else 8
+    return nV
+def GetCurses(players):
+    nC = -10 + 10 * len(player_names)
+    return nC
 
 def GetBoxes(nV):
     # Define box
